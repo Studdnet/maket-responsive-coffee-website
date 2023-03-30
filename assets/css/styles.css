@@ -818,4 +818,22 @@ img {
 		margin-bottom: 3rem;
 	}
 
+	.products__container {
+		grid-template-columns: 418px 535px;
+		align-items: center;
+	}
+
+	.products__data {
+		text-align: initial;
+	}
+
+	.products__content {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.products__name,
+	.products__price {
+		font-size: var(--h3-font-size);
+	}
+
 }
