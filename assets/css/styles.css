@@ -702,6 +702,19 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
+@media screen and (max-width: 300px) {
+	.container {
+		margin-inline: 1rem;
+	}
+
+	.nav__menu {
+		padding-inline: 3rem;
+	}
+
+	.home__title {
+		width: 220px;
+	}
+}
 
 /* For medium devices */
 
