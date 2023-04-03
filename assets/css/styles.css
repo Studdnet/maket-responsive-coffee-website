@@ -914,6 +914,13 @@ img {
 		align-items: center;
 	}
 	.testimonial__img {
-		
+		width: 450px;
+	}
+	.testimonial__data,
+	.testimonial__data .section__title {
+		text-align: initial;
+	}
+	.testimonial__data .section__title {
+		margin-bottom: 3rem;
 	}
 }
